@@ -8,31 +8,48 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-   <header>
-	   ANIMAL
-   </header>
-	<nav> 
-		<a href="#actor" id="nav-actor">Actor</a>
-		<a href="#quote" id="nav-quote">Quote</a>
-		
-	</nav>
-	<summary>
-		animal is good crature of this world
-	</summary>
-	<section id="actor">
-		animal: dog
-		
-	</section>
-	<section id="quote">
-		animal is good movie for elders 
-	</section>
-	<aside>
-		IMDB Rating: 8.4
-		Release Date: 14 May 2024
-	</aside>
-	<footer>
-		Produce by: Harsh wardhan 
-	</footer>
+   <header role="banner">
+    <h1 role="heading" aria-level="1">My Portfolio</h1>
+    <nav role="navigation">
+      <ul role="list">
+        <li role="listitem"><a href="index.html">Home</a></li>
+        <li role="listitem"><a href="about.html">About</a></li>
+        <li role="listitem"><a href="projects.html">Projects</a></li>
+        <li role="listitem"><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main role="main">
+    <section role="region">
+      <h2 role="heading" aria-level="2">About Me</h2>
+      <img src="profile.jpg" alt="Profile Picture" role="img">
+      <p>...</p>
+    </section>
+
+    <section role="region">
+      <h2 role="heading" aria-level="2">My Projects</h2>
+      <ul role="list">
+        <li role="listitem">
+          <h3 role="heading" aria-level="3">Project 1</h3>
+          <p>...</p>
+        </li>
+        <li role="listitem">
+          <h3 role="heading" aria-level="3">Project 2</h3>
+          <p>...</p>
+        </li>
+      </ul>
+    </section>
+
+    <section role="region">
+      <h2 role="heading" aria-level="2">Contact Information</h2>
+      <p>...</p>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>...</p>
+  </footer>
 	<script type="text/javascript" src="./script.js">
 </script>
 
